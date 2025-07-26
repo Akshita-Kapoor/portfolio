@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name - Web Developer Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" />
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans leading-relaxed">
+
+  <!-- Container -->
+  <div class="max-w-4xl mx-auto px-6 py-12">
+
+    <!-- Hero Section -->
+    <section class="text-center mb-16">
+      <h1 class="text-4xl font-bold mb-4">Hi, I’m <span class="text-indigo-500">Your Name</span></h1>
+      <p class="text-lg text-gray-400 max-w-xl mx-auto">
+        I’m a passionate Front-End Developer specializing in React and modern web technologies.
+      </p>
+      <a href="#projects" class="inline-block mt-6 px-6 py-3 bg-indigo-600 rounded-lg hover:bg-indigo-700 transition">
+        View My Work
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="mb-16">
+      <h2 class="text-3xl font-semibold mb-4 border-b-2 border-indigo-500 inline-block">About Me</h2>
+      <p class="text-gray-400 max-w-2xl">
+        I love building beautiful and performant web applications. With experience in React, JavaScript, and CSS, I enjoy solving complex problems and delivering great user experiences.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="mb-16">
+      <h2 class="text-3xl font-semibold mb-8 border-b-2 border-indigo-500 inline-block">Projects</h2>
+
+      <div class="grid gap-8 md:grid-cols-2">
+
+        <!-- Project 1 -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-indigo-600 transition">
+          <h3 class="text-xl font-semibold mb-2">Project One</h3>
+          <p class="text-gray-400 mb-4">A React app that fetches and displays data from a public API, with filtering and pagination.</p>
+          <p class="text-indigo-400 mb-2">Tech: React, Tailwind CSS, Axios</p>
+          <a href="https://github.com/yourusername/project-one" target="_blank" class="text-indigo-500 hover:underline">GitHub Repo</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-indigo-600 transition">
+          <h3 class="text-xl font-semibold mb-2">Project Two</h3>
+          <p class="text-gray-400 mb-4">A responsive portfolio website showcasing my skills and projects.</p>
+          <p class="text-indigo-400 mb-2">Tech: HTML, CSS, JavaScript</p>
+          <a href="https://github.com/yourusername/project-two" target="_blank" class="text-indigo-500 hover:underline">GitHub Repo</a>
+        </div>
+
+        <!-- Add more projects similarly -->
+
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="mb-16">
+      <h2 class="text-3xl font-semibold mb-4 border-b-2 border-indigo-500 inline-block">Skills</h2>
+      <ul class="flex flex-wrap gap-4 text-indigo-400">
+        <li class="bg-gray-800 px-4 py-2 rounded">HTML</li>
+        <li class="bg-gray-800 px-4 py-2 rounded">CSS</li>
+        <li class="bg-gray-800 px-4 py-2 rounded">JavaScript</li>
+        <li class="bg-gray-800 px-4 py-2 rounded">React</li>
+        <li class="bg-gray-800 px-4 py-2 rounded">Tailwind CSS</li>
+        <li class="bg-gray-800 px-4 py-2 rounded">Git & GitHub</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mb-16">
+      <h2 class="text-3xl font-semibold mb-4 border-b-2 border-indigo-500 inline-block">Contact Me</h2>
+      <p class="text-gray-400 mb-4">
+        Feel free to reach out via email or LinkedIn.
+      </p>
+      <ul class="space-y-2">
+        <li>Email: <a href="mailto:your.email@example.com" class="text-indigo-400 hover:underline">your.email@example.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-indigo-400 hover:underline">linkedin.com/in/yourprofile</a></li>
+      </ul>
+    </section>
+
+  </div>
+</body>
+</html>
