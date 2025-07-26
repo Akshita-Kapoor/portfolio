@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/akshita-kapoor-github.io/portfolio/static/css/main.ed058efb.css",
+    "main.js": "/akshita-kapoor-github.io/portfolio/static/js/main.5effe303.js",
+    "index.html": "/akshita-kapoor-github.io/portfolio/index.html",
+    "main.ed058efb.css.map": "/akshita-kapoor-github.io/portfolio/static/css/main.ed058efb.css.map",
+    "main.5effe303.js.map": "/akshita-kapoor-github.io/portfolio/static/js/main.5effe303.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed058efb.css",
+    "static/js/main.5effe303.js"
+  ]
+}
